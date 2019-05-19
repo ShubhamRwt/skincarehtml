@@ -1,0 +1,328 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+*{
+    text-decoration: none;
+}
+
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+
+}
+
+
+header .headerbrand{
+ font-family: 'Dancing Script', cursive;
+ font-size: 24px;
+    font-weight: bold;
+     color: #ff0066;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+header nav ul{
+display: block;
+ margin: 0 auto;
+    width: fit-content;
+    /* overflow: hidden;
+    background-color: blue; */
+}
+
+header nav ul li{
+display: inline-block;
+float: left;
+list-style: none;
+padding: 0 16px;
+}
+
+header nav ul li a{
+
+    font-family: 'Yatra One', cursive;
+    font-size: 18px;
+    /* padding: 14px 16px; */
+    color: #111;
+    }
+
+header .headercase{
+   display: none;
+    }
+
+    @media only screen and (min-width:1000px)    {
+        header .headerbrand{
+            
+               margin: 31px 0 ;
+            text-align: left;
+            line-height: 38px;
+            padding: 0px 20px 0px 40px;
+            border-right: 3px solid #111;
+            float: left;  
+           }
+
+           header nav ul{
+          
+             margin: 20px 0px 0px 20px;
+             float: left;
+               }
+            
+        header nav ul li a{
+        
+                line-height: 60px;
+                }
+
+                header .headercase{
+                    display: block;
+                    font-family: 'Yatra One', cursive;
+                    font-size: 18px;
+                 color: #111;
+                 text-transform: uppercase;
+                 line-height: 38px;
+                 border: 1px solid #111;
+                 float: right;
+                 margin-right: 40px;
+                 margin-top: 30px;
+                 padding: 0 20px;
+
+
+                     }
+
+
+    }
+
+.sec1{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-image:url('skin.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+
+}
+
+.sec1 h2{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 45px;
+    font-weight: bold;  
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 8px #111;   
+
+}
+.sec1 h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    line-height: 50px;
+   font-weight: 100;
+   font-style: italic; 
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 4px 4px 8px #111;   
+
+}
+
+.vertical-align{
+display: table-cell;
+vertical-align: middle;
+}
+
+.sec2 div{
+    margin: 16px 16px 0;
+    width: calc(100% -20px);
+    height: 100px;
+    background-color: #b4aaaa;
+}
+
+.sec2 div h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    line-height: 40px;
+   font-weight: 600;
+   line-height: 100px;
+    text-align: center;
+    color: #111;
+}
+
+@media only screen and (min-width:1000px)    {
+
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .sec1{
+        width: 100%;
+        height: 450px;
+        background-image:url('skin.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: table;
+    
+    }
+    .sec1 h1{
+        display: block;
+        width: 560px;
+        margin: 0 auto; 
+    
+    }
+    .sec2 div{
+        margin: 10px 16zpx 0;
+        width: calc(100% -20px);
+        height: 100px;
+        background-color: #b4aaaa;
+    }
+
+    .block1-square{
+
+    }
+    
+
+
+}
+
+footer{
+    width: calc(100% -80px);
+    padding: 40px 40px;
+    margin: 20px;
+        background-color: #111;
+        overflow: hidden;
+}
+
+footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li{
+    display: block;
+    list-style: none;
+}
+
+footer ul li a{
+    font-family: 'Yatra One', cursive;
+    font-size: 16px;
+  /* padding: 24px 16px;  */
+    color: #fff;
+    line-height: 30px; 
+}
+
+.footer-links-cases{
+    display: none;
+}
+
+.footer-sm{
+   width:60px;
+   float: right;
+   }
+
+   .footer-sm img{
+       width: 100%;
+       margin-bottom: 10px;
+   }
